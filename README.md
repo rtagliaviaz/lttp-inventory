@@ -1,5 +1,5 @@
 # lttp-inventory
-Legend of Zelda A Link to the Past Inventory with #css  and #javascript
+Legend of Zelda A Link to the Past Inventory with CSS and Javascript
 
 DEMO http://lttp-inventory.surge.sh/
 
