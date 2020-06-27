@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'The-Legend-of-Zelda:-A-Link-to-the-Past-Ext';
+  src: url('The-Legend-of-Zelda:-A-Link-to-the-Past-Ext.svg#The-Legend-of-Zelda:-A-Link-to-the-Past-Ext') format('svg'),
+       url('The-Legend-of-Zelda:-A-Link-to-the-Past-Ext.ttf') format('truetype'),
+       url('The-Legend-of-Zelda:-A-Link-to-the-Past-Ext.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'the-legend-of-zelda-a-link-to-the-past-ext';
+  src: url('the-legend-of-zelda-a-link-to-the-past-ext.eot');
+  src: url('the-legend-of-zelda-a-link-to-the-past-ext.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

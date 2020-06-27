@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="./font.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+  <link rel="icon" href="data:,">
+  <title>The Legend of Zelda A Link To The Past Inventory</title>
+</head>
+<body>
+
+  <div class="instructions">
+    <h4>THE LEGEND OF ZELDA: A LINK TO THE PAST INVENTORY</h4>
+    <p class="ins-row-1">PRESS ESC TO CLOSE THE INVENTORY</p>
+    <p class="ins-row-2">USE ARROW KEYS TO MOVE BETWEEN ITEMS</p>
+  </div>
+  
+
+  <div class="bg-container">
+    <h4 class="bg-text">
+      --- PRESS ENTER ---
+    </h4>
+    <!-- <p class="bg-ins-1">PRESS ESC TO CLOSE THE INVENTORY</p>
+    <p class="bg-ins-2">USE ARROW KEYS TO MOVE BETWEEN ITEMS</p> -->
+  </div>
+  
+  <div class="animate__animated inventory">
+    <div class="item">
+      <div class="item-inner-border">
+      </div>
+      
+        <div class="title">
+          <h4>ITEM</h4>
+        </div>
+        <p>Y</p>
+
+      <div class="items-items">
+        <div class="items-row-1">
+          <div id="BOW-&-ARROW">
+            <img src="./items/BOW-&-ARROW.png" class="item-img" alt="">
+          </div>
+          <div id="BOOMERANG">
+            <img src="./items/BOOMERANG.png" class="item-img" alt="">
+          </div>
+          <div id="HOOKSHOT">
+            <img src="./items/HOOKSHOT.png" class="item-img" alt="">
+          </div>
+          <div id="BOMB">
+            <img src="./items/BOMB.png" class="item-img" alt="">
+          </div>
+          <div id="MAGIC-POWDER">
+            <img src="./items/MAGIC-POWDER.png" class="item-img" alt="">
+          </div>
+        </div>
+        <div class="items-row-2">
+          <div id="FIRE-ROD">
+            <img src="./items/FIRE-ROD.png" class="item-img" alt="">
+          </div>
+          <div id="ICE-ROD">
+            <img src="./items/ICE-ROD.png" class="item-img" alt="">
+          </div>
+          <div id="BOMBOS-MEDALLION">
+            <img src="./items/BOMBOS-MEDALLION.png" class="item-img" alt="">
+          </div>
+          <div id="ETHER-MEDALLION">
+            <img src="./items/ETHER-MEDALLION.png" class="item-img" alt="">
+          </div>
+          <div id="QUAKE-MEDALLION">
+            <img src="./items/QUAKE-MEDALLION.png" class="item-img" alt="">
+          </div>
+        </div>
+        <div class="items-row-3">
+          <div id="MAGIC-LAMP">
+            <img src="./items/MAGIC-LAMP.png" class="item-img" alt="">
+          </div>
+          <div id="MAGIC-HAMMER">
+            <img src="./items/MAGIC-HAMMER.png" class="item-img" alt="">
+          </div>
+          <div id="FLUTE">
+            <img src="./items/FLUTE.png" class="item-img" alt="">
+          </div>
+          <div id="BUG-NET">
+            <img src="./items/BUG-NET.png" class="item-img" alt="">
+          </div>
+          <div id="BOOK-OF-MUDORA">
+            <img src="./items/BOOK-OF-MUDORA.png" class="item-img" alt="">
+          </div>
+        </div>
+        <div class="items-row-4">
+          <div id="MAGIC-BOTTLE">
+            <img src="./items/MAGIC-BOTTLE.png" class="item-img" alt="">
+          </div>
+          <div id="CANE-OF-SOMARIA">
+            <img src="./items/CANE-OF-SOMARIA.png" class="item-img" alt="">
+          </div>
+          <div id="CANE-OF-BYRNA">
+            <img src="./items/CANE-OF-BYRNA.png" class="item-img" alt="">
+          </div>
+          <div id="MAGIC-CAPE">
+            <img src="./items/MAGIC-CAPE.png" class="item-img" alt="">
+          </div>
+          <div id="MAGIC-MIRROR">
+            <img src="./items/MAGIC-MIRROR.png" class="item-img" alt="">
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="item-selected">
+      <div class="item-selected-inner-border">
+      </div>
+
+      <div class="item-selected-item">
+        <img id="selected-img" src="" alt="">
+      </div>
+
+      <p id="item-selected-title"></p>
+    </div>
+
+    <div class="crystals">
+      <div class="crystals-inner-border">
+      </div>
+
+      <div class="crystals-title">
+        <h4>CRYSTALS</h4>
+      </div>
+
+      <div class="crystals-img">
+        <img src="./items/crystals.png" alt="">
+      </div>
+    </div>
+    
+    
+    
+    <div class="do">
+      <div class="do-inner-border">
+      </div>
+      
+      <div class="do-title">
+        <h4>D O</h4>
+      </div>
+
+      <p>A</p>
+
+      <div class="do-actions">
+        <div class="do-actions-row-1">
+          <div id="lift">
+            <p>LIFT</p>
+          </div>
+          <div id="read">
+            <p>READ</p>
+          </div>
+          <div id="talk">
+            <p>TALK</p>
+          </div>
+        </div>
+        <div class="do-actions-row-2">
+          <div id="pull">
+            <p>PULL</p>
+          </div>
+          <div id="run">
+            <p>RUN</p>
+          </div>
+          <div id="swim">
+            <p>SWIM</p>
+          </div>
+        </div>
+        
+        
+      </div>
+
+      <div class="do-items">
+        <div class="do-items-row">
+          <div id="pegasus">
+            <img src="./items/pegasus.png" alt="">
+          </div>
+          <div id="titan">
+            <img src="./items/titans.png" alt="">
+          </div>
+          <div id="flippers">
+            <img src="./items/flippers.png" alt="">
+          </div>
+          <div id="moon">
+            <img src="./items/moon.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="equipment">
+      <div class="equipment-inner-border">
+      </div>
+
+      <div class="equipment-title">
+        <h4>EQUIPMENT</h4>
+      </div>
+
+      <div class="equipment-items">
+        <div class="equipment-row-1">
+          <div id="sword">
+            <img src="./items/master.png" alt="">
+          </div>
+          <div id="shield">
+            <img src="./items/mirror.png" alt="">
+          </div>
+          <div id="tunic">
+            <img src="./items/red.png" alt="">
+          </div>
+        </div>
+        <div class="equipment-row-2">
+          <p>- - - - - - - - - - - - - </p>
+        </div>
+        <div class="equipment-row-3">
+          <div id="heart">
+            <img src="./items/heart-container.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./main.js" type="module"></script>
+  <script src="./functions.js" type="module"></script>
+</body>
+</html>
